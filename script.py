@@ -22,7 +22,7 @@ blended_img = cv.addWeighted(flag, 0.4, pattern, 0.8, 0)
 
 #Showing the output
 cv.imshow('flag', blended_img)
-cv.imwrite('images/Output.jpg', blended_img)
+cv.imwrite('Output.jpg', blended_img)
 cv.waitKey(0)
 cv.destroyAllWindows()
 
